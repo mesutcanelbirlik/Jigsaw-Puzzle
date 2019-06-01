@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/3d-button.css">
+    <link rel="stylesheet" href="css/game.css">
+    <title>Play Puzzle</title>
+</head>
+
+<body>
+    <audio id="audio" src="others/click.mp3"></audio>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2">
+                <div id="time">Time start After Shuffle</div>
+                <button type="button" onclick="shuffle()" class="btn btn-success p-3 shuffle">
+                    <b>Shuffle <i class="fas fa-random"></i></b>
+                </button>
+                <!--<br><br>
+                <button type="button" onclick="solve(20)" class="btn btn-primary p-3">
+                    <b>Solve <i class="fab fa-centos"></i></b>
+                </button>-->
+                <br><br>
+                <p>Preview</p>
+                <button type="button" id="preview-on" class="btn btn-success p-3">
+                    <b>On</b>
+                </button>
+                <button type="button" id="preview-off" class="btn btn-danger p-3">
+                    <b>Off</b>
+                </button><br><br>
+                <p>Background</p>
+                <img class="options selected" src="images/background/light.png" alt="">
+                <img class="options" src="images/background/oak.png" alt="">
+                <img class="options" src="images/background/paper.png" alt="">
+            </div>
+            <div class="col-lg-5">
+                <div id="puzzle"></div><div id="deneme"><img id="image"></div>
+            </div>
+            <div class="col-lg-5">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/Puzzle.js"></script>
+    <script src="js/game-jquery.js"></script>
+</body>
+
+</html>

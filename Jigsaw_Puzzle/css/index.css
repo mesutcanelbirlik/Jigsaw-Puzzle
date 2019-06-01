@@ -1,0 +1,41 @@
+body {
+    background-size: cover!important;
+}
+.container {
+    height: 100vh;
+}
+.slider-image {
+    margin-left: 13%;
+    height: 400px;
+    width: 400px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+}
+
+h1 {
+    font-family: 'Sofia';
+    /*font-size: 22px;*/
+}

@@ -1,0 +1,35 @@
+canvas {
+    position: absolute;
+    z-index: 2;
+}
+
+#image {
+    opacity: 0;
+    z-index: 1;
+}
+.options {
+    height: 75px;
+    width: 75px;
+    border: 5px solid white;
+}
+.selected {
+    border: 5px solid red;
+}
+#preview-on:disabled
+{
+    opacity: 0.4;
+}
+#preview-off:disabled
+{
+    opacity: 0.4;
+}
+.shuffle:disabled
+{
+    opacity: 0.4;
+}
+#deneme {
+    position: absolute;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+}
